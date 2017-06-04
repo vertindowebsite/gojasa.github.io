@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Image Responsive</title>
+	<style>
+    	* {margin: 0; padding: 0;}
+		
+		body {
+			padding-top: 30px; 	
+		}
+		
+		.imgR {
+			width: 600px;
+			margin: auto;	
+		}
+		
+		.imgR img{
+			width: 600px;	
+		}
+		
+		@media (max-width: 1024px) {
+			.imgR img {
+				width: 550px;	
+			}
+		}
+		
+		@media (max-width: 800px) {
+			.imgR img {
+				width: 500px;	
+			}	
+		}
+		
+		@media (max-width: 768px) {
+			.imgR img {
+				width: 450px;	
+			}	
+		}
+    </style>
+</head>
+
+<body>
+	<div class="imgR">
+    	<a href="http://gojasa1.vertindosoftware.net"><img src="images/gojasasplash.jpg"></a></img>    </div>
+</body>
+</html>
